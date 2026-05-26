@@ -1,4 +1,5 @@
-# IPs Privados não são pagos na AWS
+# IPv4
+IPs Privados não são pagos na AWS
 
 ## Classe A
 10.0 0.1 - 255.0.0.0
@@ -30,5 +31,6 @@
 255.255.255.0    /24
 
 
-# IPs Públicos são pagos na AWS a 0,005$
-## para forçar a transição para IPv6, onde os IPs são TODOS PÚBLICOS e todos GRATUITOS
+# IOv6
+IPs Públicos são pagos na AWS a 0,005$
+para forçar a transição para IPv6, onde os IPs são TODOS PÚBLICOS e todos GRATUITOS

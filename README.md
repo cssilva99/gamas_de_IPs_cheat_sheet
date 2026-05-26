@@ -1,11 +1,10 @@
-# IPs Privados  (não são pagos na AWS)
+# IPs Privados não são pagos na AWS
 
 ## Classe A
-
+10.0 0.1 - 255.0.0.0
 
 ## Classe B
 172.16.0.0 - 255.255.0.0
-
 
 ## Classe C
 192.168.0.0 - 255.255.255.0
@@ -14,8 +13,6 @@
 ### Mascaras de Rede
 
 ## Classe A
-
-255.0.0.0
 
 ## Classe B
 
@@ -28,7 +25,10 @@
 255.255.252.0      /22
 255.255.252.0      /23
 
-
 ## Classe C
 
 255.255.255.0    /24
+
+
+# IPs Públicos são pagos na AWS a 0,005$
+## para forçar a transição para IPv6, onde os IPs são TODOS PÚBLICOS e todos GRATUITOS

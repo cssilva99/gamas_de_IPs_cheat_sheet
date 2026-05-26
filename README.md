@@ -1,4 +1,5 @@
 # IPv4
+
 IPs Privados não são pagos na AWS
 
 ## Classe A
@@ -11,11 +12,11 @@ IPs Privados não são pagos na AWS
 192.168.0.0 - 255.255.255.0
 
 
-//### Mascaras de Rede
+### Mascaras de Rede
 
-//## Classe A
+## Classe A
 
-//## Classe B
+## Classe B
 
 //255.255.0.0        /16
 //255.255.128.0      /17
@@ -26,11 +27,27 @@ IPs Privados não são pagos na AWS
 //255.255.252.0      /22
 //255.255.252.0      /23
 
-//## Classe C
+## Classe C
 
-//255.255.255.0    /24
+255.255.255.0    /24
 
 
 # IPv6
+
 IPs Públicos são pagos na AWS a 0,005$
 para forçar a transição para IPv6, onde os IPs são TODOS PÚBLICOS e todos GRATUITOS
+
+# Roteamento
+
+- Preencher uma Route Table da AWS é o mesmo que escrever uma Route Table numa rede on-premisses :
+
+* roteamento estático
+
+- A diferença está na camada de abstração :
+  
+* software vs. hardware
+
+- Enquanto numa rede on-premises o next hop m é o endereço IP de uma interface física, como a GigabitEthernet0/1,
+
+- na AWS o next hop (ou target), é uma abstração um recurso (ou serviço)
+

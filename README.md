@@ -1,4 +1,4 @@
-# IPv4
+# IPv4 - IPs Privados
 
 IPs Privados não são pagos na AWS
 
@@ -33,6 +33,18 @@ IPs Privados não são pagos na AWS
 
 255.255.255.0    /24
 
+# IPv4 - IPs Públicos
+
+Algumas corporações têm blocos inteiros de IPs públicos só para elas, por exemplo:
+
+17. x.x.x -> Apple
+19. x.x.x -> Ford Motor 
+214. x.x.x e -> Departamento de Defesa EUA
+
+## Conhecer o endereço != conseguir invadir
+Saber o IP de uma empresa é como saber o endereço físico da sede de um banco.
+
+Sabemos onde fica o prédio, mas isso não significa que se consiga entrar nas salas, abrir o cofre ou passar pelos seguranças.
 
 # IPv6
 
@@ -49,7 +61,7 @@ para forçar a transição para IPv6, onde os IPs são TODOS PÚBLICOS e todos G
   
 * software vs. hardware
 
-- Enquanto numa rede on-premises o next hop m é o endereço IP de uma interface física, como a GigabitEthernet0/1,
+- Enquanto numa rede on-premises o next hop é o endereço IP de uma interface física, como a GigabitEthernet0/1,
 
 - na AWS o next hop (ou target), é uma abstração um recurso (ou serviço)
 
